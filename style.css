@@ -1,0 +1,265 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit',sans-serif;
+    /* font-size: 28px; */
+    font-weight: 300;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(220, 64%, 13%, 0.978);
+}
+
+.container {
+    margin-top: 6.5rem;
+    max-height: 35rem;
+    max-width: 19.1rem;
+    background-color: hsl(215, 52%, 17%);
+    border-radius: 0.625rem;
+    margin-bottom: 5rem;
+    box-shadow: hsl(217, 54%, 11%) 5px 20px 20px 5px,
+                /* hsl(216, 53%, 20%) 10px 5px 5px, */
+                hsl(217, 54%, 11%) -5px 20px 20px 5px;
+                /* hsl(216, 53%, 25%) -15px 15px 5px; */
+                /* hsl(216, 54%, 32%) -20px 20px, 
+                hsl(217, 54%, 11%) -25px 25px; */
+    /*     
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem; */
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+    /* background-color-: ; */
+}
+
+.container  img {
+    margin-top: 1.3rem;
+    margin-left: 1.24rem;
+    margin-right: 1.2rem;
+    margin-bottom: 0.225rem;
+    height: 16rem;
+    width: 16.5rem;
+    border-radius: 0.5rem;
+}
+
+.container h3 {
+    margin-top: 1rem;
+    padding: 0.625rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.225rem;
+    font-weight: 600;
+    -webkit-transition: color 2s;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.container h3:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container article p{
+    margin-left: 1.5rem;
+    margin-right: 1.45em;
+    margin-bottom: 0.25rem;
+    color: hsl(213, 38%, 57%);
+
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    /* display: inline-block; */
+    /* align-items: left; */
+    /* text-align: ; */
+    
+    
+    /* justify-content: left; */
+}
+
+li{
+    /* max-height: 1.025rem;
+    max-width: 1.025rem; */
+    font-size: 15px;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 9.8%;
+    /* align-items: center;
+    justify-content: center; */
+    /* float: left; */
+    /* width: 8.5rem;
+    height: 3rem; */
+    /* padding: 0.0125rem; */
+    margin-top: 1rem;
+    margin-left: -1.9rem;
+    margin-bottom: 0.8rem;
+    
+}
+
+
+
+ .container ul img{ 
+    max-height: 1.025rem;
+    max-width: 1.025rem;
+    margin-top: 1.137rem;
+    margin-left: 1.5rem;
+    /* margin-right: ; */
+} 
+/* .container li:first-child img{
+    height: 17px;
+    width: 13px; */
+/* } */
+
+.overlay:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s ease;
+    border-radius: 0.5rem;
+    background-color: hsl(178, 100%, 50%,60%);
+    
+}
+
+.overlay  {
+    display: flex;
+    margin-top: -16.5rem;
+    /* margin-left: -0.525rem;
+    margin-right: -1rem; */
+    margin-left: 1.2rem;
+    right: 6.75rem;
+    height: 15.95rem;
+    width: 16.56rem;
+    opacity: 0;
+    /* color: white; */
+    /* top: 0; */
+  /* bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease; */
+    
+}
+
+
+.overlay img:hover {
+    opacity: 0.9;
+    position: relative;
+    /* top: 4.7rem; */
+    /* opacity: -calc(0vh-2rem); */
+    /* background: cyan; */
+    /* background-color: cyan; */
+}
+
+
+
+.overlay img {
+    /* color:#fff; */
+    margin-top: 6.5rem;
+    margin-left: 6.8rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
+
+
+.line{
+    height: 0.1px;
+    background: hsl(214, 30%, 31%);
+    /* margin: 2rem auto; */
+    max-width: 265px;
+    margin-left: 1.24rem;
+    margin-right: 1rem;
+}
+.ack p{
+    font-size: 15px;
+    margin-top : -2.2rem;
+    margin-bottom: 1.9rem;
+    margin-left: 4.2rem;
+}
+.ack p color {
+    margin-right: 0.225rem;
+    color: hsl(213, 50%, 62%);
+}
+.ack img {
+    margin-top: 1.2rem;
+    max-height: 2rem;
+    max-width: 2rem;
+    border: 1px solid hsl(213, 32%, 72%);
+    border-radius: 100%;
+}
+
+.ack p a {
+    -webkit-transition: color 2s;
+    transition: color 0.1s;
+    cursor: pointer;
+}
+
+.ack p a:hover {
+    color: hsl(178, 100%, 50%);
+}
+/* 
+.attribution {
+    display: flex;
+    flex-direction: row ;
+    margin-top: -1rem; 
+    font-size: 12px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
