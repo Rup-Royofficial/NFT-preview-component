@@ -2,6 +2,8 @@
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
+Live demo : https://github.com/Rup-Royofficial/NFT-preview-component.git
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
